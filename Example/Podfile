@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SASValidator_Example' do
+  pod 'SASValidator', :path => '../'
+
+  target 'SASValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
