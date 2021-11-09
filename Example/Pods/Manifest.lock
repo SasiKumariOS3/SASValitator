@@ -1,0 +1,16 @@
+PODS:
+  - SASValidator (0.1.0)
+
+DEPENDENCIES:
+  - SASValidator (from `../`)
+
+EXTERNAL SOURCES:
+  SASValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SASValidator: acdb956b236193e2553e28bb37d9aaa84046d925
+
+PODFILE CHECKSUM: e9a9a1d7c832b2de49dbc12eec9ebd9742bcf38d
+
+COCOAPODS: 1.10.1

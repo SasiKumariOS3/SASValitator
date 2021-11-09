@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import SASValidator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Validate Email = ", SASValidator.shared.isValidEmail("sas.com"))
+        print("Validate PAN Number = ", SASValidator.shared.isValidPAN("GGGGG5555G"))
+        print("Validate Adhar Number = ", SASValidator.shared.isValidAdhar("1234 4567 7890"))
+
     }
 
     override func didReceiveMemoryWarning() {

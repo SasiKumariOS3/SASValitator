@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9FDB0E55135973E3104431C923FA98 /* SASValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013141DF01DE5776787D6A3483DE77D0 /* SASValidator-dummy.m */; };
+		1890CC86030A7FE69D43E21826A8C3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		277389B13C5ED5655664B343CEF0E7B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3EEC00628A8D630D63ED0CCE7AC1A8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ACD4A7110B39B7261E9A3E7D79E5AE9A /* Pods-SASValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACBBADDE9A4502A2C51FF945D8D7BF2 /* Pods-SASValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADDD883314CFB3FFA5FA04BCB8341DF5 /* Pods-SASValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 925B29E492B0353C6F035E81891A5BC4 /* Pods-SASValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF2B237DC34099D962EA973C86EE9766 /* Pods-SASValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8EF1F0C0ADD9C6F781BD3FC45EB20F /* Pods-SASValidator_Example-dummy.m */; };
+		C4707C5F273AC2CD005D44D3 /* SASValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707C5E273AC2CD005D44D3 /* SASValidator.swift */; };
+		EBF2CA76B7E662B31767420265CFEC97 /* Pods-SASValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CE5DFAFDCD687FBFEC60BB88A809 /* Pods-SASValidator_Tests-dummy.m */; };
+		F2E603AB34B0F056B376D41555B82FF5 /* SASValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E4ED1C8C7CD1C35963D73ED4A64537 /* SASValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0A953B7E023347CBBEE48150CEEC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F7C7ABB733C8057DA839EF6AC77FE1;
+			remoteInfo = "Pods-SASValidator_Example";
+		};
+		5BAA33630B3F5CFFD83E6832BEEE16F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D2BD123D40ADED6283185DF6950787;
+			remoteInfo = SASValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013141DF01DE5776787D6A3483DE77D0 /* SASValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SASValidator-dummy.m"; sourceTree = "<group>"; };
+		10104870028F90191A66CA92C3520819 /* Pods-SASValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SASValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1A59817AD7A705DC01BAD10C709B376C /* Pods-SASValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B604B6CD76ECADCCC4544BD1C94C72D /* Pods-SASValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20E3547D4DEDBDD3E1B22D19EC618D74 /* Pods-SASValidator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASValidator_Example-Info.plist"; sourceTree = "<group>"; };
+		34196E94E4D29623819F5B40BA1FDFAD /* SASValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASValidator-prefix.pch"; sourceTree = "<group>"; };
+		351269595CBB31B9446054B378428CB7 /* Pods-SASValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38C9F0E0E6FB4A2E9F4FA1A3B6036EA1 /* Pods-SASValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		462FBAA4DCC69EFDDC138AA21A7CE525 /* Pods-SASValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BBCE1233EF4017397CEADD33C30A624 /* Pods-SASValidator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASValidator_Tests-Info.plist"; sourceTree = "<group>"; };
+		5558948E1ED4C4F2C1CC961B9E84AAF1 /* SASValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SASValidator-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		776FA9734BD2598A651C21D15352768E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8467CE5DFAFDCD687FBFEC60BB88A809 /* Pods-SASValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		89C787C52B65B7EC7555095C10324899 /* Pods-SASValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8ACBBADDE9A4502A2C51FF945D8D7BF2 /* Pods-SASValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8EC528A307A7DD0B89470EB5EED1EA64 /* SASValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SASValidator.modulemap; sourceTree = "<group>"; };
+		925B29E492B0353C6F035E81891A5BC4 /* Pods-SASValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASValidator_Example-umbrella.h"; sourceTree = "<group>"; };
+		9842360BE8128A8DAC1F98430CE470A2 /* SASValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASValidator.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8E4ED1C8C7CD1C35963D73ED4A64537 /* SASValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASValidator-umbrella.h"; sourceTree = "<group>"; };
+		B7EBF392C0E166B0D3C3D8A359B7B66E /* SASValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASValidator.release.xcconfig; sourceTree = "<group>"; };
+		BA8EF1F0C0ADD9C6F781BD3FC45EB20F /* Pods-SASValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASValidator_Example-dummy.m"; sourceTree = "<group>"; };
+		C12D1207E64C03F5CE41777689E6655B /* Pods-SASValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C35DAB68356027EE60297B14C4140098 /* Pods_SASValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4707C5E273AC2CD005D44D3 /* SASValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASValidator.swift; sourceTree = "<group>"; };
+		C4F304A408C4E0D32D03FA86797E7088 /* SASValidator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SASValidator.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CA3A295183423AC98DEA42237D88E8C2 /* Pods-SASValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASValidator_Example.modulemap"; sourceTree = "<group>"; };
+		CB1020DD77EB970506D5EBCD28F1059A /* Pods-SASValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		D6C179763F91432DA108D8FB93C94502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D847CE9B0C002397E849503838988403 /* SASValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SASValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E349A5EC33E9066DFB5D1AA8CA246338 /* Pods-SASValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E9639E6FF8372C03D8EABD7800502E1A /* Pods_SASValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F61B77072402C5C48AEA3ED74DB89A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277389B13C5ED5655664B343CEF0E7B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694E1BFE21FB65110B61FAF737C7470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEC00628A8D630D63ED0CCE7AC1A8B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D77037976337C65157402CCEB8EFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890CC86030A7FE69D43E21826A8C3A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B8E59172E92B3166308EF106350C85 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D2FAB0CD44FAD43933168F1CB7F195 /* SASValidator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2D59C6B9EEF7308F74910856732BAFA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EC528A307A7DD0B89470EB5EED1EA64 /* SASValidator.modulemap */,
+				013141DF01DE5776787D6A3483DE77D0 /* SASValidator-dummy.m */,
+				5558948E1ED4C4F2C1CC961B9E84AAF1 /* SASValidator-Info.plist */,
+				34196E94E4D29623819F5B40BA1FDFAD /* SASValidator-prefix.pch */,
+				A8E4ED1C8C7CD1C35963D73ED4A64537 /* SASValidator-umbrella.h */,
+				9842360BE8128A8DAC1F98430CE470A2 /* SASValidator.debug.xcconfig */,
+				B7EBF392C0E166B0D3C3D8A359B7B66E /* SASValidator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SASValidator";
+			sourceTree = "<group>";
+		};
+		4BB3FD3B780BE990D9893D381DC6FC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9639E6FF8372C03D8EABD7800502E1A /* Pods_SASValidator_Example.framework */,
+				C35DAB68356027EE60297B14C4140098 /* Pods_SASValidator_Tests.framework */,
+				D847CE9B0C002397E849503838988403 /* SASValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554A3B0D825E934DABA09E61FF0EC072 /* Pods-SASValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB1020DD77EB970506D5EBCD28F1059A /* Pods-SASValidator_Tests.modulemap */,
+				1B604B6CD76ECADCCC4544BD1C94C72D /* Pods-SASValidator_Tests-acknowledgements.markdown */,
+				C12D1207E64C03F5CE41777689E6655B /* Pods-SASValidator_Tests-acknowledgements.plist */,
+				8467CE5DFAFDCD687FBFEC60BB88A809 /* Pods-SASValidator_Tests-dummy.m */,
+				4BBCE1233EF4017397CEADD33C30A624 /* Pods-SASValidator_Tests-Info.plist */,
+				8ACBBADDE9A4502A2C51FF945D8D7BF2 /* Pods-SASValidator_Tests-umbrella.h */,
+				462FBAA4DCC69EFDDC138AA21A7CE525 /* Pods-SASValidator_Tests.debug.xcconfig */,
+				89C787C52B65B7EC7555095C10324899 /* Pods-SASValidator_Tests.release.xcconfig */,
+			);
+			name = "Pods-SASValidator_Tests";
+			path = "Target Support Files/Pods-SASValidator_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89D2FAB0CD44FAD43933168F1CB7F195 /* SASValidator */ = {
+			isa = PBXGroup;
+			children = (
+				C4707C5D273AC1DE005D44D3 /* Source */,
+				98B548BB6961FB9C4BAC58E57157872B /* Pod */,
+				2D59C6B9EEF7308F74910856732BAFA5 /* Support Files */,
+			);
+			name = SASValidator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		98145B2DB39C9856B1143487254884F2 /* Pods-SASValidator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CA3A295183423AC98DEA42237D88E8C2 /* Pods-SASValidator_Example.modulemap */,
+				351269595CBB31B9446054B378428CB7 /* Pods-SASValidator_Example-acknowledgements.markdown */,
+				1A59817AD7A705DC01BAD10C709B376C /* Pods-SASValidator_Example-acknowledgements.plist */,
+				BA8EF1F0C0ADD9C6F781BD3FC45EB20F /* Pods-SASValidator_Example-dummy.m */,
+				10104870028F90191A66CA92C3520819 /* Pods-SASValidator_Example-frameworks.sh */,
+				20E3547D4DEDBDD3E1B22D19EC618D74 /* Pods-SASValidator_Example-Info.plist */,
+				925B29E492B0353C6F035E81891A5BC4 /* Pods-SASValidator_Example-umbrella.h */,
+				E349A5EC33E9066DFB5D1AA8CA246338 /* Pods-SASValidator_Example.debug.xcconfig */,
+				38C9F0E0E6FB4A2E9F4FA1A3B6036EA1 /* Pods-SASValidator_Example.release.xcconfig */,
+			);
+			name = "Pods-SASValidator_Example";
+			path = "Target Support Files/Pods-SASValidator_Example";
+			sourceTree = "<group>";
+		};
+		98B548BB6961FB9C4BAC58E57157872B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				776FA9734BD2598A651C21D15352768E /* LICENSE */,
+				D6C179763F91432DA108D8FB93C94502 /* README.md */,
+				C4F304A408C4E0D32D03FA86797E7088 /* SASValidator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C4707C5D273AC1DE005D44D3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4707C5E273AC2CD005D44D3 /* SASValidator.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01B8E59172E92B3166308EF106350C85 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4BB3FD3B780BE990D9893D381DC6FC6B /* Products */,
+				EC3C6529C009D3C803BEE2E3CD5C87BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC3C6529C009D3C803BEE2E3CD5C87BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98145B2DB39C9856B1143487254884F2 /* Pods-SASValidator_Example */,
+				554A3B0D825E934DABA09E61FF0EC072 /* Pods-SASValidator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4232DDA6954D0206AD9E0A5A6A01691B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD4A7110B39B7261E9A3E7D79E5AE9A /* Pods-SASValidator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4828127AEF4BB158FA686B85E36BF25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E603AB34B0F056B376D41555B82FF5 /* SASValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCA5ABD9CE4A4FD406FBC0CF40B4AAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDD883314CFB3FFA5FA04BCB8341DF5 /* Pods-SASValidator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16D2BD123D40ADED6283185DF6950787 /* SASValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F9D25A48CC5E3271C430DC1D23855 /* Build configuration list for PBXNativeTarget "SASValidator" */;
+			buildPhases = (
+				B4828127AEF4BB158FA686B85E36BF25 /* Headers */,
+				CACBB4994460322B075385199A595B5F /* Sources */,
+				694E1BFE21FB65110B61FAF737C7470B /* Frameworks */,
+				20DA5A9D4C3121D0513D74F89B2C9E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASValidator;
+			productName = SASValidator;
+			productReference = D847CE9B0C002397E849503838988403 /* SASValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16F7C7ABB733C8057DA839EF6AC77FE1 /* Pods-SASValidator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADE8D1E30BEDF2F118F3B122EBF7A9D /* Build configuration list for PBXNativeTarget "Pods-SASValidator_Example" */;
+			buildPhases = (
+				CDCA5ABD9CE4A4FD406FBC0CF40B4AAF /* Headers */,
+				B6E125B3F35652DB37703CA925FA78A5 /* Sources */,
+				D9D77037976337C65157402CCEB8EFAB /* Frameworks */,
+				86A1F27E6C8323F138CEA08F60841D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E5F22322D8DE5FE3F00D5F59C3C627 /* PBXTargetDependency */,
+			);
+			name = "Pods-SASValidator_Example";
+			productName = "Pods-SASValidator_Example";
+			productReference = E9639E6FF8372C03D8EABD7800502E1A /* Pods_SASValidator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4C3B02B349B99F56D239D418B42EB72 /* Pods-SASValidator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043102757935BE92FCBB8F2ED04244F2 /* Build configuration list for PBXNativeTarget "Pods-SASValidator_Tests" */;
+			buildPhases = (
+				4232DDA6954D0206AD9E0A5A6A01691B /* Headers */,
+				CCBC8088B8279D76E8C5E5633FDAED7C /* Sources */,
+				3F61B77072402C5C48AEA3ED74DB89A4 /* Frameworks */,
+				BAC2B837808ADD32DD79B66A464A09AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09634C1F0F708D2E1E3CEC83567811FF /* PBXTargetDependency */,
+			);
+			name = "Pods-SASValidator_Tests";
+			productName = "Pods-SASValidator_Tests";
+			productReference = C35DAB68356027EE60297B14C4140098 /* Pods_SASValidator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					16D2BD123D40ADED6283185DF6950787 = {
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4BB3FD3B780BE990D9893D381DC6FC6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F7C7ABB733C8057DA839EF6AC77FE1 /* Pods-SASValidator_Example */,
+				D4C3B02B349B99F56D239D418B42EB72 /* Pods-SASValidator_Tests */,
+				16D2BD123D40ADED6283185DF6950787 /* SASValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20DA5A9D4C3121D0513D74F89B2C9E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A1F27E6C8323F138CEA08F60841D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC2B837808ADD32DD79B66A464A09AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E125B3F35652DB37703CA925FA78A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2B237DC34099D962EA973C86EE9766 /* Pods-SASValidator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBB4994460322B075385199A595B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4707C5F273AC2CD005D44D3 /* SASValidator.swift in Sources */,
+				0D9FDB0E55135973E3104431C923FA98 /* SASValidator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC8088B8279D76E8C5E5633FDAED7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF2CA76B7E662B31767420265CFEC97 /* Pods-SASValidator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09634C1F0F708D2E1E3CEC83567811FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SASValidator_Example";
+			target = 16F7C7ABB733C8057DA839EF6AC77FE1 /* Pods-SASValidator_Example */;
+			targetProxy = 1F0A953B7E023347CBBEE48150CEEC80 /* PBXContainerItemProxy */;
+		};
+		53E5F22322D8DE5FE3F00D5F59C3C627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SASValidator;
+			target = 16D2BD123D40ADED6283185DF6950787 /* SASValidator */;
+			targetProxy = 5BAA33630B3F5CFFD83E6832BEEE16F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70531291CE8D2FF78AAA9DEBE9D5E235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C787C52B65B7EC7555095C10324899 /* Pods-SASValidator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASValidator_Tests/Pods-SASValidator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASValidator_Tests/Pods-SASValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B425ADD6B99C84B16DE555B65D5963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E349A5EC33E9066DFB5D1AA8CA246338 /* Pods-SASValidator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASValidator_Example/Pods-SASValidator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASValidator_Example/Pods-SASValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CEF4C08BB188FACAF4D775255325B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C9F0E0E6FB4A2E9F4FA1A3B6036EA1 /* Pods-SASValidator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASValidator_Example/Pods-SASValidator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASValidator_Example/Pods-SASValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98D4DABF1EE6CDD910419C27E1D3FE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462FBAA4DCC69EFDDC138AA21A7CE525 /* Pods-SASValidator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASValidator_Tests/Pods-SASValidator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASValidator_Tests/Pods-SASValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5B94D42F087365370F001E7C32B7D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EBF392C0E166B0D3C3D8A359B7B66E /* SASValidator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SASValidator/SASValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SASValidator/SASValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SASValidator/SASValidator.modulemap";
+				PRODUCT_MODULE_NAME = SASValidator;
+				PRODUCT_NAME = SASValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D150132477D93C919C220DEA5D0211AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9842360BE8128A8DAC1F98430CE470A2 /* SASValidator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SASValidator/SASValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SASValidator/SASValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SASValidator/SASValidator.modulemap";
+				PRODUCT_MODULE_NAME = SASValidator;
+				PRODUCT_NAME = SASValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043102757935BE92FCBB8F2ED04244F2 /* Build configuration list for PBXNativeTarget "Pods-SASValidator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D4DABF1EE6CDD910419C27E1D3FE2A /* Debug */,
+				70531291CE8D2FF78AAA9DEBE9D5E235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F9D25A48CC5E3271C430DC1D23855 /* Build configuration list for PBXNativeTarget "SASValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D150132477D93C919C220DEA5D0211AB /* Debug */,
+				A5B94D42F087365370F001E7C32B7D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADE8D1E30BEDF2F118F3B122EBF7A9D /* Build configuration list for PBXNativeTarget "Pods-SASValidator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B425ADD6B99C84B16DE555B65D5963D /* Debug */,
+				8CEF4C08BB188FACAF4D775255325B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

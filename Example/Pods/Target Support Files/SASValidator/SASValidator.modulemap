@@ -1,0 +1,6 @@
+framework module SASValidator {
+  umbrella header "SASValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

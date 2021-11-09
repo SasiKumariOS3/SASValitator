@@ -1,0 +1,22 @@
+{
+  "name": "SASValidator",
+  "version": "0.1.0",
+  "summary": "A short description of SASValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sasikumar/SASValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sasikumar": "sasikumar.vs@mysmitch.com"
+  },
+  "source": {
+    "git": "https://github.com/Sasikumar/SASValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SASValidator/Classes/**/*"
+}
