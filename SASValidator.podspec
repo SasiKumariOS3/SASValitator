@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASValidator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SASValidator is a validation framework'
 
 # This description is used to generate tags and improve search results.
